@@ -1,0 +1,125 @@
+body {
+  color: #40514E;
+  margin: 0;
+  background-color: #E4F9F5;
+  text-align: center;
+  font-family: 'Raleway', sans-serif
+}
+
+h1 {
+  font-size: 4.5rem;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-style: normal;
+  font-family: 'Raleway', sans-serif;
+  color: #66BFBF;
+  padding: 10px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #4cd3c2;
+}
+
+p {
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+}
+
+a {
+  color: #35d0ba;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 4%;
+}
+
+.name-bio {
+  color: #EAF6F6;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
+.Top-container {}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #0e9aa7;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: relative;
+  padding-top: 100px;
+  left: 20%;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.fullstackdev {
+  width: 25%;
+  float: left;
+  padding: 30px;
+}
+
+.python {
+  width: 25%;
+  float: right;
+  padding: 30px;
+}
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  color: #232625 !important;
+  font-size: 15px;
+  text-shadow: 1px 1px 0px #638A6C;
+  box-shadow: 1px 1px 1px #667866;
+  padding: 10px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(top, #11CDD4, #2980b9);
+  background: -ms-linear-gradient(top, #11CDD4, #2980b9);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#2980b9));
+  background: -moz-linear-gradient(top, #11CDD4, #2980b9);
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #63B8EE !important;
+  background: #468CCF;
+  background: linear-gradient(top, #30E3CB, #2BC4AD);
+  background: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+  background: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+}
